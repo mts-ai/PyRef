@@ -1,5 +1,12 @@
-pandas~=1.2.2
-anytree~=2.8.0
-astunparse~=1.6.3
-editdistance~=0.5.3
-gitpython~=3.1.18
+anytree==2.8.0
+astunparse==1.6.3
+editdistance @ git+https://github.com/roy-ht/editdistance.git@3f5a5b0299f36662349df0917352a42c620e3dd4
+gitdb==4.0.12
+GitPython==3.1.44
+numpy==2.0.2
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+pytz==2024.2
+six==1.17.0
+smmap==5.0.2
+tzdata==2024.2

@@ -47,13 +47,11 @@ python3 main.py getrefs -r "[PATH_TO_REPOSITORY]" -c "[CommitHash]" -d "[Directo
 The detected refactorings will be recorded in the current folder as a json file "[project]_data.json".
 
 ## Play with PyRef
-You will need to first install the third-party dependencies. You can use the following command in the folder of PyRef:
+Firstly, you need to install Python3.9 version after that you  will need to first install the third-party dependencies. You can use the following command in the folder of PyRef:
 
 ```sh
 pip3 install -r requirements.txt
 ```
-
-**Note: Pandas of a version lower than 2.0.0 is required, as the newer versions of pandas changed ".append" (used in the PyRef code) to "._append" to avoid confusion with ".append" in Python (Thanks to Zhi Li for pointing this out).**
 
 We provide a toy project for you to test PyRef, which can be found at https://github.com/PyRef/DummyRef
 Please execute the following commands in order:
