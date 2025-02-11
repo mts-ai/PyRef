@@ -15,7 +15,7 @@ Current supported refactoring operations:
 * Pull Up Method
 * Push Down Method
 
-This tool was orinally developed by PyRef team, but the original repo is abanoned. MTS AI Research team is using PyRef tool in our work, so we decided to share its improved version. PLease feel free to use it.
+This tool was orinally developed by PyRef team, but the original repo is abanoned. MTS AI Research team is using PyRef tool in our work, so we decided to share its improved version. Please feel free to use it.
 
 ## Usage
 
