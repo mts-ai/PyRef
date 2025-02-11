@@ -15,6 +15,8 @@ Current supported refactoring operations:
 * Pull Up Method
 * Push Down Method
 
+This tool was orinally developed by PyRef team, but the original repo is abanoned. MTS AI Research team is using PyRef tool in our work, so we decided to share its improved version. PLease feel free to use it.
+
 ## Usage
 
 Clone a repository from GitHub using PyRef:
@@ -47,13 +49,11 @@ python3 main.py getrefs -r "[PATH_TO_REPOSITORY]" -c "[CommitHash]" -d "[Directo
 The detected refactorings will be recorded in the current folder as a json file "[project]_data.json".
 
 ## Play with PyRef
-You will need to first install the third-party dependencies. You can use the following command in the folder of PyRef:
+Firstly, you need to install Python3.9 version after that you  will need to first install the third-party dependencies. You can use the following command in the folder of PyRef:
 
 ```sh
 pip3 install -r requirements.txt
 ```
-
-**Note: Pandas of a version lower than 2.0.0 is required, as the newer versions of pandas changed ".append" (used in the PyRef code) to "._append" to avoid confusion with ".append" in Python (Thanks to Zhi Li for pointing this out).**
 
 We provide a toy project for you to test PyRef, which can be found at https://github.com/PyRef/DummyRef
 Please execute the following commands in order:
@@ -65,9 +65,9 @@ python3 main.py getrefs -r "Repos/DummyRef"
 
 The detected refactorings can be found in the file "DummyRef_data.json"
 
-## Dataset for the Paper
+## Dataset for Comparison
 
-This tool was part of the following study:
+The original tool was part of the following study:
 
 H. Atwi, B. Lin, N. Tsantalis, Y. Kashiwa, Y. Kamei, N. Ubayashi, G. Bavota and M. Lanza, "PyRef: Refactoring Detection in Python Projects," 2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM), 2021, accepted.
 
