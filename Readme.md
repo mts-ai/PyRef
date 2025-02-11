@@ -15,6 +15,8 @@ Current supported refactoring operations:
 * Pull Up Method
 * Push Down Method
 
+This tool was orinally developed by PyRef team, but the original repo is abanoned. MTS AI Research team is using PyRef tool in our work, so we decided to share its improved version. PLease feel free to use it.
+
 ## Usage
 
 Clone a repository from GitHub using PyRef:
@@ -63,9 +65,9 @@ python3 main.py getrefs -r "Repos/DummyRef"
 
 The detected refactorings can be found in the file "DummyRef_data.json"
 
-## Dataset for the Paper
+## Dataset for Comparison
 
-This tool was part of the following study:
+The original tool was part of the following study:
 
 H. Atwi, B. Lin, N. Tsantalis, Y. Kashiwa, Y. Kamei, N. Ubayashi, G. Bavota and M. Lanza, "PyRef: Refactoring Detection in Python Projects," 2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM), 2021, accepted.
 
